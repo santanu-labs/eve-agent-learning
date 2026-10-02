@@ -1,0 +1,10 @@
+[
+    { "id": "T-01", "text": "Order ORD-1002 still not here, it's been 10 days!!" },
+    { "id": "T-02", "text": "How do I change my delivery address?" },
+    { "id": "T-03", "text": "The keyboard from ORD-1001 has a broken key." },
+    { "id": "T-04", "text": "Can I get a GST invoice for my last order?" },
+    { "id": "T-05", "text": "I was charged twice for ORD-1003" },
+    { "id": "T-06", "text": "Do you ship to Sri Lanka?" },
+    { "id": "T-07", "text": "Cancel ORD-1003 please, found it cheaper elsewhere" },
+    { "id": "T-08", "text": "Your delivery person was very rude to my mother." }
+  ]

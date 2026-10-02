@@ -1,0 +1,20 @@
+node_modules
+.env
+.env.local
+.env.*.local
+!.env.example
+.eve
+.vercel
+.next
+.output
+.nitro
+dist
+.DS_Store
+*.tsbuildinfo
+
+# Runtime artifacts (audit hook, agent reports, agent memory store)
+logs/
+reports/*
+!reports/.gitkeep
+data/memory.json
+.cursor/
