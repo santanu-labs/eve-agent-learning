@@ -1,6 +1,8 @@
 # Building Production Agents with eve
 ### A Hands-On Course — From “Hello, Agent” to a Tested, Safe, Multi-Agent Service
 
+> **Project home:** Clone, run, and connect MCP from the [**repository README**](../README.md) (`eve-agent-learning`). This file is the long-form course; the README is the entry point for stars, setup, and sharing.
+
 > **Who this is for:** developers who can read TypeScript and want to build a real AI agent step by step — typing every line, understanding every layer.
 > **What you'll build:** one agent, **Pears Support**, that grows chapter by chapter from a two-file chatbot into a production-grade system: tools, skills, a sandbox, approvals, durable sessions, subagents, connections, schedules, evals, guardrails, memory, long-running jobs, orchestration, an MCP service, red-team tests, cost routing and web browsing.
 > **Framework:** [eve](https://eve.dev) by Vercel — an open-source, filesystem-first framework for durable agents. Written against **eve 0.66.3** with a **custom OpenAI-compatible model** (no Vercel deployment required).
@@ -2513,3 +2515,7 @@ MCP SERVICE    agent/channels/mcp.ts  mcpChannel({ auth })
 ---
 
 *You typed every layer yourself. When something breaks, you'll know which one — and that is the real skill: not calling an agent framework, but understanding the harness it gives you.*
+
+---
+
+**Back to the project:** [README](../README.md) · [GitHub repo](https://github.com/santanu-labs/eve-agent-learning) · If this helped you, [star the repo](https://github.com/santanu-labs/eve-agent-learning) so more developers find it.
