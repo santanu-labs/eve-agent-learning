@@ -75,10 +75,9 @@ git init -b main
 git add -A
 git status   # confirm .env.local and .eve are not staged
 git commit -m "Initial public release"
-gh repo create pears-agentic --public --source=. --push
+git remote add origin https://github.com/santanu-labs/eve-agent-learning.git
+git push -u origin main:master
 ```
-
-Replace the repo name and use your preferred GitHub flow if you do not use the GitHub CLI.
 
 ## Deploy on Vercel
 
@@ -97,3 +96,4 @@ MIT — see [LICENSE](LICENSE).
 - [eve documentation](https://eve.dev/docs)
 - [Build an Agent tutorial](https://eve.dev/docs/tutorial/first-agent)
 - [eve on GitHub](https://github.com/vercel/eve)
+- [Sharing notes](docs/SHARING.md) — publishing and repo setup
